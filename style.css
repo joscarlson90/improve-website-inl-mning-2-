@@ -1,0 +1,503 @@
+/* {outline: 1px dashed red}*/
+
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .menu-both {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        padding: 10px;
+        position: absolute;
+        top: 60px;
+        z-index: 999;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-toggle:checked+.hamburger+.menu-both {
+        display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-model-container .overlay-logo {
+        width: 200px;
+        position: absolute;
+        top: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer .footer-grid-column {
+        display: block;
+    }
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    display: none;
+    padding: 10px;
+}
+
+.menu-both {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-left,
+.menu-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-right .search-dropdown {
+    transition: none;
+}
+
+.shop-category,
+.btn {
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    background-color: transparent;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.shop-category:hover,
+.btn:hover {
+    color: grey;
+}
+
+.bi-icon {
+    margin: 5px;
+}
+
+.category-section .head-name-cat {
+    left: 6px;
+    padding: 10px;
+}
+
+.head-name-cat {
+    margin-left: 10px;
+    font-size: smaller;
+    font-style: oblique;
+}
+
+.category-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.category-wrapper:hover .dropdown-list {
+    display: flex;
+    gap: 2rem;
+}
+
+.category-wrapper:hover .search-dropdown {
+    display: block;
+    width: 300px;
+}
+
+.opening-hours a {
+    padding-top: 10px;
+}
+
+.help-info-list a {
+    text-decoration: none;
+    line-height: 1;
+}
+
+.category-wrapper:hover .help-dropdown ul li {
+    display: block;
+    width: 300px;
+    font-size: 15px;
+    margin: 0px 5px 10px 0px;
+    padding: 10px 3px 10px 0px;
+    list-style-type: none;
+}
+
+.search-dropdown form {
+    padding: 10px;
+}
+
+form input[type="search"] {
+    outline: none;
+}
+
+.btn-outline-success {
+    color: black;
+    border: 1px solid lightgrey;
+}
+
+.search-dropdown {
+    flex-direction: column;
+}
+
+.list-group li:nth-child(odd) {
+    line-height: 1;
+    border: none;
+    background-color: #f8f9fa;
+}
+
+.list-group li:nth-child(even) {
+    line-height: 1;
+    border: none;
+    background-color: #ffffff;
+}
+
+.list-group-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: 0;
+}
+
+.list-group-item:hover {
+    color: gray;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+    width: auto;
+    max-width: max-content;
+    background-color: white;
+    transition: 3s ease;
+}
+
+#womanCategory:hover, #manCategory:hover, #denimCategory:hover, #bagsCategory:hover, #scarvesCategory:hover {
+    background-color: #cfdcdd;
+}
+
+.dropdown-list .list-group-item {
+    display: block;
+    padding: 10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn-outline-success,
+.form-control {
+    display: block;
+}
+
+.btn-outline-success:hover {
+    color: black;
+    background-color: white;
+    border-color: lightgrey;
+}
+
+/* Main start*/
+
+.overlay-logo {
+    display: flex;
+    position: fixed;
+    left: 200px;
+    top: 200px;
+    width: 1000px;
+    height: auto;
+}
+
+.logo-overlay-container {
+    position: relative;
+}
+
+.img-model-container {
+    /*bild*/
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.img-models1-2,
+.img-nav {
+    /*bild*/
+    display: flex;
+}
+
+.cards {
+    display: flex;
+}
+
+.homepage-newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 600px;
+    height: 400px;
+    margin: 30px auto 30px auto;
+    padding: 20px;
+}
+
+.homepage-newsletter h2 {
+    font-size: 17px;
+}
+
+.homepage-newsletter #email {
+    width: 600px;
+}
+
+.btn-link {
+    font-size: 22px;
+    color: black;
+    font-weight: 200;
+    margin-top: auto;
+    padding: 0;
+}
+
+/* Footer start*/
+
+footer .footer-grid-column {
+    display: flex;
+}
+
+.footer-grid-column {
+    /* flex-wrap: wrap; */
+    margin-top: auto;
+    padding: 10px 0 20px 0;
+    gap: 150px;
+    border-top: rgb(222, 218, 218) 1px solid;
+}
+
+.footer-grid-column h2 {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.footer-grid-column li {
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 1.5;
+    color: #0018a8;
+    padding: 5px;
+}
+
+.footer-grid-column ul {
+    padding-left: 3px;
+}
+
+.footer-grid-column a {
+    color: #0018a8;
+    text-decoration: none;
+    transition-timing-function: linear;
+}
+
+.footer-grid-column a:hover {
+    color: black;
+    font-size: 18px;
+}
+
+.socmedia-container {
+    text-align: center;
+    border-top: 1px solid lightgrey;
+    width: auto;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+/*Page 2 Account*/
+
+.header-page2 {
+    margin-top: 0px;
+}
+
+.small-logo {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 160px;
+}
+
+.account-form {
+    display: grid;
+    place-content: center;
+    font-size: 17px;
+    margin-top: 100px;
+    padding: 50px;
+    width: auto;
+    height: auto;
+}
+
+.account-form .sign-in-reg {
+    font-weight: bold;
+}
+
+.account-form p {
+    font-size: 20px;
+}
+
+.account-form ul li {
+    padding: 5px;
+    list-style: square;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+.form-input {
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: fit-content;
+    height: fit-content;
+}
+
+#email {
+    display: block;
+    align-items: center;
+    width: 400px;
+    padding: 12px 80px 12px 0;
+    border: none;
+    background-color: #f8f9fa;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.email-button {
+    background-color: black;
+    width: 400px;
+    color: white;
+    padding: 12px 80px;
+    margin-top: 25px;
+}
+
+#email:hover {
+    background-color: #e3efff;
+    border: 1px solid black;
+}
+
+.email-button:hover {
+    background-color: #0018a8;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    color: gray;
+    font-size: 14px;
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    width: 400px;
+}
+
+.google-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-container a {
+    color: black;
+    text-decoration: none;
+}
+
+.google-button {
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    color: black;
+    padding: 12px 80px;
+    margin-bottom: 50px;
+    font-size: smaller;
+    border: 1px solid #ccc;
+
+}
+
+.google-icon {
+    position: absolute;
+    left: 40%;
+    top: auto;
+}
+
+/* Page 3 - Contact */
+
+.contact-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-container .head-contact {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: auto;
+}
+
+.contact-info {
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100px;
+}
+
+.contact-container ul {
+    text-align: left;
+    list-style: none;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.newsletter-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.newsletter-container h2 {
+    font-size: 20px;
+}
+
+.newsletter-container #email {
+    width: 600px;
+}
