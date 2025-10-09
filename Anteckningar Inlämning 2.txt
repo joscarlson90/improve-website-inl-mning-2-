@@ -1,0 +1,17 @@
+Anteckningar och förändringar Acne:
+
+- Större textstorlek, då jag tyckte storleken på den officiella hemsidan var för liten.
+- Header, hover på listgrupperna, tydligare
+- Footer, hover på länkarna & transition till höger
+
+Extra sidor:
+Contact & Account
+
+Responsivt:
+
+- Hamburgermeny
+- Tagit bort bilderna på cards
+- Footern till row
+
+Testat med Lighthouse
+W3Validator
