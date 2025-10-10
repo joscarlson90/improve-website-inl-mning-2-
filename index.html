@@ -429,7 +429,7 @@
                             height="16" fill="currentColor" class="bi-icon" viewBox="0 0 16 16">
                             <path
                                 d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
-                        </svg><span class="vis-icon-button">ACCOUNT</span></a>
+                        </svg><span class="vis-icon-button account-btn">ACCOUNT</span></a>
                 </div>
 
                 <div class="category-wrapper">
@@ -446,15 +446,34 @@
                         <div class="dropdown-list pay-dropdown" id="pay-form">
                             <div class="pay-content">
                                 <p class="shopping-bag">BAG 00</p>
-                                <p class="empty-bag">EMPTY</p>
+                                <div class="main-content-shopping">
+                                    <div class="art-empty">
+                                        <pre>####### #     # ######  ####### #     #
+#       ##   ## #     #    #     #   # 
+#       # # # # #     #    #      # #  
+#####   #  #  # ######     #       #   
+#       #     # #          #       #   
+#       #     # #          #       #   
+####### #     # #          #       #   </pre>
+                                    </div>
+                                </div>
+                                <div class="middle-payment-content">
+                                    <h3>Missing items in your cart?</h3>
+                                    <p>Sign in to see items you added before.</p>
+                                </div>
+                                <div class="grid-paydropdown">
+                                    <a href="account-page2.html">SIGN IN/REGISTER</a>
+                                </div>
+
                                 <div class="payment-alt">
-                                    <img src="assets/visa.svg" width="22" alt="Visa Logga">
-                                    <img src="assets/mastercard.svg" width="22" alt="Mastercard Logga">
-                                    <img src="assets/amex.svg" width="22" alt="AmericanExpress Logga">
-                                    <img src="assets/discover.svg" width="22" alt="Discover Logga">
-                                    <img src="assets/apple-pay.svg" width="22" alt="ApplePay Logga">
-                                    <img src="assets/klarna.svg" width="22" alt="Klarna Logga">
-                                    <img src="assets/paypal.svg" width="22" alt="PayPal Logga">
+                                    <p class="empty-bag">PAYMENT</p>
+                                    <img src="assets/visa.svg" width="30" alt="Visa Logga">
+                                    <img src="assets/mastercard.svg" width="30" alt="Mastercard Logga">
+                                    <img src="assets/amex.svg" width="30" alt="AmericanExpress Logga">
+                                    <img src="assets/discover.svg" width="30" alt="Discover Logga">
+                                    <img src="assets/apple-pay.svg" width="30" alt="ApplePay Logga">
+                                    <img src="assets/klarna.svg" width="30" alt="Klarna Logga">
+                                    <img src="assets/paypal.svg" width="30" alt="PayPal Logga">
                                 </div>
                             </div>
                         </div>
@@ -580,6 +599,7 @@
                 <ul>
                     <li>
                         <a href="contact-page3.html"><span class="link-contact">Contact us</span></a>
+                    </li>
                     <li>
                         <a href="https://www.acnestudios.com/se/en/shopping-help/get-order-status">Order status</a>
                     </li>
@@ -591,28 +611,38 @@
                     </li>
                 </ul>
             </div>
+
             <div class="footer-list">
                 <h2>CLIENT SERVICES</h2>
-                <ul>
-                    <li> <a href="https://www.acnestudios.com/se/en/client-services/">Acne Studios Services</a></li>
-                    <li><a href="https://www.acnestudios.com/se/en/client-services/account.html">Account</a></li>
-                    <li><a href="https://www.acnestudios.com/se/en/stores/">Find a store</a></li>
-                    <li><a href="https://www.acnestudios.com/se/en/client-services/productcare.html">Product care</a>
-                    </li>
-                    <li><a href="https://www.acnestudios.com/se/en/gift-card/GIFT-CARD.html">Gift Cards</a></li>
-                </ul>
+                <div class="responsive-column">
+                    <ul>
+                        <li> <a href="https://www.acnestudios.com/se/en/client-services/">Acne Studios Services</a></li>
+                        <li><a href="https://www.acnestudios.com/se/en/client-services/account.html">Account</a></li>
+                        <li><a href="https://www.acnestudios.com/se/en/stores/">Find a store</a></li>
+                        <li><a href="https://www.acnestudios.com/se/en/client-services/productcare.html">Product
+                                care</a>
+                        </li>
+                        <li><a href="https://www.acnestudios.com/se/en/gift-card/GIFT-CARD.html">Gift Cards</a></li>
+                    </ul>
+                </div>
             </div>
+
             <div class="footer-list">
                 <h2>COMPANY</h2>
-                <ul>
-                    <li><a href="https://www.acnestudios.com/se/en/about/about.html">About</a></li>
-                    <li><a href="https://press.acnestudios.com/">Press</a></li>
-                    <li><a href="https://careers.acnestudios.com/">Careers</a></li>
-                    <li><a href="https://www.acnestudios.com/se/en/company/sustainability/">Sustainability</a></li>
-                    <li><a href="https://www.acnestudios.com/se/en/companyfolder/company__terms-of-use.html">Legal &
-                            Privacy</a></li>
-                </ul>
+                <div class="responsive-column">
+                    <ul>
+                        <li><a href="https://www.acnestudios.com/se/en/about/about.html">About</a></li>
+                        <li><a href="https://press.acnestudios.com/">Press</a></li>
+                        <li><a href="https://careers.acnestudios.com/">Careers</a></li>
+                        <li><a href="https://www.acnestudios.com/se/en/company/sustainability/">Sustainability</a></li>
+                        <li><a href="https://www.acnestudios.com/se/en/companyfolder/company__terms-of-use.html">Legal &
+                                Privacy</a></li>
+                    </ul>
+                </div>
             </div>
+
+        </div>
+        </div>
         </div>
     </footer>
 
