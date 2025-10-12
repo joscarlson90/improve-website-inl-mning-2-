@@ -1,14 +1,15 @@
 Anteckningar och förändringar Acne:
 
-- Större textstorlek, då jag tyckte storleken på den officiella hemsidan var för liten.
+- Större textstorlek och fetare font weight
 - Header, hover på listgrupperna, tydligare
-- Footer, hover på länkarna & transition till höger
+- Footer, hover på länkarna & transition
 
 Extra sidor 2st (märkta med en stjärna)
 - Contact
 - Account
 
 Responsivt: dator, ipad, iphone 2 breakpoints
+
 - Hamburgermeny
 - Cards-meny
 - Footer
@@ -18,11 +19,13 @@ Responsivt: dator, ipad, iphone 2 breakpoints
 - Transition //
 - ::before & ::after //
 
+La medvetet inte på texten på bilderna som originalhemsidan då jag antar att det inte är tillgänglighetsanpassat
+
 Skrivit lite Scss
 
 Upplagt på Github
 länk github: https://github.com/joscarlson90/improve-website-inl-mning-2-.git
 
-Testat med Lighthouse
-W3Validator
+Testat med Lighthouse och förbättrat
+W3Validator och förbättrat
 Manuell testning
