@@ -24,7 +24,8 @@ La medvetet inte på texten på bilderna som originalhemsidan då jag antar att 
 Skrivit lite Scss
 
 Upplagt på Github
-länk github: https://github.com/joscarlson90/improve-website-inl-mning-2-.git
+Länk github: https://github.com/joscarlson90/improve-website-inl-mning-2-.git
+Länk till hemsidan: www.acnestudios.com (Den är förändrad)
 
 Testat med Lighthouse och förbättrat
 W3Validator och förbättrat
